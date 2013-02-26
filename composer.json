@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/slideshow",
+    "name": "arnhoe/slideshow",
     "description": "Slideshow module for ss3 based on jQuery responsiveslides.",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "slideshow","showcase", "main gallery","images"],
