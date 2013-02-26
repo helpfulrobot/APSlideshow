@@ -2,7 +2,6 @@
     "name": "arnhoe/slideshow",
     "description": "Slideshow module for ss3 based on jQuery responsiveslides.",
     "type": "silverstripe-module",
-    "keywords": ["silverstripe", "slideshow","showcase", "main gallery","images"],
     "license": "BSD-3-Clause",
     "authors": [
     {
@@ -14,7 +13,7 @@
     {
         "silverstripe/framework": "3.*",
         "silverstripe/cms": "3.*",
-        "ajshort/gridfieldextensions": "dev-master"
+        "ajshort/silverstripe-gridfieldextensions": "dev-master"
     },
     "version": "1.0.0"
 }
