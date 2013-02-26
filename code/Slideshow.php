@@ -13,7 +13,7 @@ class Slideshow extends DataExtension {
 		$config->addComponent(new GridFieldDeleteAction());
 		$config->addComponent(new GridFieldDetailForm());
 		$config->addComponent(new GridFieldSortableHeader());
-		$config->addComponent(new GridFieldSortableRows('SortOrder'));
+		$config->addComponent(new GridFieldOrderableRows('SortOrder'));
 
 
 		$gridField = new GridField('Slides', _t('Slideshow.PROMOTIONS', 'Promotions'), $this->owner->Slides(), $config);
