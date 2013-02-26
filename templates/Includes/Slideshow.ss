@@ -1,11 +1,12 @@
 <% if Slides %>
+<div id="slideshow">
 <ul class="rslides">
 	<% loop Slides %>
 		<% if not $Draft %>
 		<li>
-			<% with Image %>
-				<% with CroppedImage(940,400) %>
-					<img src="1.jpg" alt="$Title.XML">
+			<% with $Image %>
+				<% with $CroppedImage(940,400) %>
+					<img src="$URL" alt="$Title.XML">
 				<% end_with %>
 			<% end_with %>
 
@@ -16,4 +17,5 @@
 		<% end_if %>
 	<% end_loop %>
 </ul>
+</div>
 <% end_if %>
