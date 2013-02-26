@@ -15,5 +15,8 @@
         "silverstripe/cms": "3.*",
         "ajshort/silverstripe-gridfieldextensions": "dev-master"
     },
+    "extra": {
+        "installer-name": "APSlideshow"
+    }
     "version": "1.0.0"
 }
