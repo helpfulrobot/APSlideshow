@@ -14,7 +14,7 @@ $(function() {
 		navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
 		manualControls: "",     // Selector: Declare custom pager navigation
 		namespace: "rslides",   // String: Change the default namespace used
-		before: function(){},   // Function: Before callback
-		after: function(){}     // Function: After callback
+       	before: $.noop,         // Function: Before callback
+      	after: $.noop           // Function: After callback
 	});
 });
